@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.upnav {
+  background-color: yellow;
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+
+}
+
+.logo img {
+  width: 150px;
+  height: 55px;
+  margin-right: 200px;
+}
+
+.downnav {
+  display: flex;
+  width: 85vw;
+  background-color: rgb(241, 244, 246);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 223, 217);
+
+}
+
+.downnav a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.downnav a img {
+  height: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+
+.button {
+  padding-top: 8px;
+}
+
+.button button {
+  border-radius: 4px;
+  background-color: rgb(236, 236, 64);
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  margin-left: 150px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.lang {
+  padding-top: 20px;
+
+}
+
+.lang img {
+  height: 15px;
+  width: 15px;
+}
+
+.searchicon img {
+  height: 30px;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.mid {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+}
+
+.mid h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.mid p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.mid button {
+  background: rgb(236, 236, 64);
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lastp p {
+  margin-bottom: 20px;
+}
+
+.container {
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-template-rows: repeat(4, 4fr);
+  gap: 20px;
+  width: 80vw;
+  height: 100vh;
+  margin-left: 125px;
+  margin-right: 125px;
+
+}
+
+.box {
+  background-color: rgb(240, 236, 236);
+  border-radius: 8px;
+  border: 2px solid black;
+
+}
+
+//yahan se change
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+.box {
+  text-align: center;
+}
+
+.lang {
+  text-align: center;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: yellow;
+  list-style: none;
+  border-radius: 4px;
+  background-color: rgb(236, 236, 64);
+  border: none;
+  padding: 10px 20px;
+ margin: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px
+}
+
+.download :nth-child(2) {
+  font-size: 23px;
+}
+
+.download img {
+  padding: 0px 12px;
+}
+
+.download {
+  display: flex;
+  font-family: sans-serif;
+  gap: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1145px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
